@@ -1,0 +1,187 @@
+/* here you can put your own css to customize and override the theme */
+/* layout-admin.css ================================================================================================================================================ */
+/***
+Page Header
+***/
+/* Page Header */
+/* 356 */
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .subject {
+  margin-left: 0;
+}
+/* 371 */
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .message {
+  margin-left: 0;
+  height:45px;
+
+  display: -webkit-box;           /** 将对象作为伸缩盒子模型显示 **/
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  overflow: hidden;               /** 隐藏超出的内容 **/
+  -webkit-line-clamp: 2;          /** 显示的行数 **/
+  -webkit-box-orient: vertical;   /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+}
+/***
+Page sidebar
+***/
+/* Page Sidebar */
+/* 989 */
+.page-sidebar-fixed .page-sidebar .page-sidebar-menu > li > a, .page-sidebar-fixed
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a {
+  font-family: 微软雅黑;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* 1016 */
+.page-sidebar .page-sidebar-menu > li.active > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a {
+  font-family: 微软雅黑;
+}
+/* 1094 */
+.page-sidebar .page-sidebar-menu .sub-menu li > a,
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu li > a {
+  font-family: 微软雅黑;
+}
+/***
+Page content
+***/
+/* Page content */
+/* 2195 */
+.page-content {
+  background-color: #f0f5f5;
+}
+
+/* components-rounded.css ================================================================================================================================================ */
+/***
+Customized Bootstrap Alerts
+***/
+/* 973 */
+.alert {
+  border-width: 1px;
+}
+/* 995 */
+.alert-info-cuz {
+  background-color: #fff;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+
+/***
+Notes
+***/
+/* 3305 */
+.note.note-info-cuz {
+  background-color: #d9edf7;
+  border-color: #91d9e8;
+  color: #d8e3f2, 80%;
+}
+
+/***
+Custom tables
+***/
+/* 4776 */
+.table thead tr.font-xs th {
+  font-size: 8px;
+}
+.table thead tr.font-strong th {
+  font-weight: bold;
+}
+.table thead tr.text-center th {
+  text-align: center;
+}
+
+/***
+Customized Bootstrap Tabs
+***/
+/* Tabs and pills */
+/* 4903 */
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  font-family: 微软雅黑;
+}
+
+/***
+Form Repeater
+****/
+/* 5533 */
+.mt-repeater .mt-repeater-item {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/* login.css ================================================================================================================================================ */
+/***
+Login page
+***/
+/* bg color */
+.login {
+  background-color: #fff !important;
+  background-image: none;
+}
+
+/* Custom define style ================================================================================================================================================ */
+.scroll-x {
+  overflow-x: scroll;
+}
+.width-1800 {
+  width:1800px;
+}
+.width-2000 {
+  width:2000px;
+}
+.width-2400 {
+  width:2400px;
+}
+.width-2800 {
+  width:2800px;
+}
+.width-3200 {
+  width:3200px;
+}
+
+.min-height-150 {
+  min-height: 150px;
+}
+.min-height-300 {
+  min-height: 300px;
+}
+.min-height-500 {
+  min-height: 500px;
+  height: 500px;
+}
+
+.chart-height-240 {
+  height: 240px;
+}
+.chart-height-300 {
+  height: 300px;
+}
+.chart-height-450 {
+  height: 450px;
+}
+
+.bgc-white {
+  background-color: #fff;
+}
+.bgc-lightgray {
+  background-color: lightgray;
+}
+
+.text-white {
+  color:#fff;
+}
+.text-white>a  {
+  color:#fff;
+  text-decoration: none;
+}
+
+#tbl_reply_list {
+  table-layout: fixed;
+}
+#tbl_reply_list tbody tr td.reply-summary {
+
+  text-overflow: ellipsis; /* for IE */
+  -moz-text-overflow: ellipsis; /* for Firefox,mozilla */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
